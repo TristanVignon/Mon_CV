@@ -1,0 +1,179 @@
+body {
+    height: 100vh;
+    background-color:#681203;
+    background-size: 100%;
+    font-family: 'Crete Round', serif;
+    color: #444;
+    li{
+        list-style-type: none;
+        margin-top: 15px;
+    }
+    h1 {
+        margin-top: 50px;
+        font-family: 'Crete Round', serif;
+        color: #444;
+        text-align: center;
+    }
+    h2 {
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+    }
+    h3 {
+        font-weight: bold;
+        text-align: center;
+        color: #F18F01;
+        font-size: 20px;    
+    }
+    h4 {
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: center;
+        color: #F35800;
+    }
+    .part1 {
+        display: inline-block;
+        vertical-align: middle;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        p {
+            margin-top: 40px;
+        }
+    }
+    .part2 {
+        display: inline-block;
+        vertical-align: middle;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        .card {
+            height: 230px;
+        }
+        ul {
+            margin-top: -10px;
+            li {
+                border-left: solid 2px #F35800;
+                padding-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .part3 {
+        vertical-align: middle;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        li {
+            border-left: solid 2px #F35800;
+            padding-left: 5px;
+        }
+    }
+    .part4 {
+        vertical-align: middle;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        li {
+            border-left: solid 2px #F35800;
+            padding-left: 5px;
+        }
+    }
+    .card {
+        box-shadow: 10px 5px 20px;
+        height: 300px;
+        border-radius: 10px;
+        overflow-y: auto;
+        margin: 30px 30px 0px 30px;
+        &.photo {
+            border-radius: 10px;
+            height:300px;
+            img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        p {
+            font-size: 1    15px;
+            text-align: left;
+            margin-left: 15px;
+        }
+        li {
+            font-size: 1    15px;
+            text-align: left;
+            margin-left: 15px;
+        }
+        &.exp {
+            li{
+                margin-top: 5px;
+            }
+        }
+        &.parcours {
+            ul {
+                margin-top: -10px;
+                li {
+                    margin-top: 10px;
+                }
+            }
+        }
+        &.outils {
+            img {
+                width: 50px;
+                height: auto;
+            }
+            li {
+                list-style-type: none;
+                margin-top: 15px;
+            }
+        }
+        &.int {
+            img {
+                width: 50px;
+                height: auto;
+            }
+            li {
+                border-left: solid 2px #F35800;
+                padding-left: 5px;
+            }
+        }
+        &.lang {
+            img {
+                width: 50px;
+                height: auto;
+            }
+            li {
+                border-left: solid 2px #F35800;
+                padding-left: 5px;
+            }
+        }
+        &.info {
+            margin-left: auto;
+            margin-right: auto;
+            height: 150px;
+            display: inline-block;
+            align-items: center;
+            display: flex;
+            align-self: center;
+            border-radius: 10px 10px 0px 0px;
+            .card-body{
+                p {
+                    margin-top: 1px;
+                    border-right: solid 2px #F35800;
+                    border-left: solid 2px #F35800;
+                    padding-left: 65px;
+                    padding-right: 20px;
+                }
+            }
+        }
+        &.titre {
+            height: 120px;
+            h1 {
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+        }
+    }
+}
+// Il vaut mieux utiliser des classes que les balises html

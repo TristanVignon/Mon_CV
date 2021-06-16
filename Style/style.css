@@ -1,0 +1,168 @@
+body {
+  height: 100vh;
+  background-color: #681203;
+  background-size: 100%;
+  font-family: "Crete Round", serif;
+  color: #444;
+}
+body li {
+  list-style-type: none;
+  margin-top: 15px;
+}
+body h1 {
+  margin-top: 50px;
+  font-family: "Crete Round", serif;
+  color: #444;
+  text-align: center;
+}
+body h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+body h3 {
+  font-weight: bold;
+  text-align: center;
+  color: #F18F01;
+  font-size: 20px;
+}
+body h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #F35800;
+}
+body .part1 {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+body .part1 p {
+  margin-top: 40px;
+}
+body .part2 {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+body .part2 .card {
+  height: 230px;
+}
+body .part2 ul {
+  margin-top: -10px;
+}
+body .part2 ul li {
+  border-left: solid 2px #F35800;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+body .part3 {
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+body .part3 li {
+  border-left: solid 2px #F35800;
+  padding-left: 5px;
+}
+body .part4 {
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+body .part4 li {
+  border-left: solid 2px #F35800;
+  padding-left: 5px;
+}
+body .card {
+  box-shadow: 10px 5px 20px;
+  height: 300px;
+  border-radius: 10px;
+  overflow-y: auto;
+  margin: 30px 30px 0px 30px;
+}
+body .card.photo {
+  border-radius: 10px;
+  height: 300px;
+}
+body .card.photo img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+body .card p {
+  font-size: 1 15px;
+  text-align: left;
+  margin-left: 15px;
+}
+body .card li {
+  font-size: 1 15px;
+  text-align: left;
+  margin-left: 15px;
+}
+body .card.exp li {
+  margin-top: 5px;
+}
+body .card.parcours ul {
+  margin-top: -10px;
+}
+body .card.parcours ul li {
+  margin-top: 10px;
+}
+body .card.outils img {
+  width: 50px;
+  height: auto;
+}
+body .card.outils li {
+  list-style-type: none;
+  margin-top: 15px;
+}
+body .card.int img {
+  width: 50px;
+  height: auto;
+}
+body .card.int li {
+  border-left: solid 2px #F35800;
+  padding-left: 5px;
+}
+body .card.lang img {
+  width: 50px;
+  height: auto;
+}
+body .card.lang li {
+  border-left: solid 2px #F35800;
+  padding-left: 5px;
+}
+body .card.info {
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  align-self: center;
+  border-radius: 10px 10px 0px 0px;
+}
+body .card.info .card-body p {
+  margin-top: 1px;
+  border-right: solid 2px #F35800;
+  border-left: solid 2px #F35800;
+  padding-left: 65px;
+  padding-right: 20px;
+}
+body .card.titre {
+  height: 120px;
+}
+body .card.titre h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

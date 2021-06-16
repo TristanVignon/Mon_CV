@@ -5,30 +5,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel="stylesheet">
+    <link href="./Style/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
     <title>CV de Tristan VIGNON</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="card titre">
+        <div class="row col-sm-12 card titre">
             <h1 class="card-header"> CV de Tristan VIGNON </h1>
         </div>
-        <div class="part1">
-            <div class="card photo">
-                <img src="phoenix.jpg" alt="Photo">
-            </div>
-            <div class="card pres">
-                <h2>Tristan VIGNON</h2>
-                <h3>Développeur HTML/SCSS</h3>
-                <p>Bonjour,<br><br>Je m'appelle Tristan, j'habite à Pontoise en France.<br>
-                    Je suis études de BTS Systèmes Numériques option<br> électronique et communication.<br> Je voudrais
-                    ensuite m'orienter vers le développement web</p>
+        <div class="row">
+            <div class="part1">
+                <div class="col-sm-5">
+                <div class="card photo">
+                    <img src="./Assets/Images/phoenix.jpg" alt="Photo">
+                </div>
+                </div>
+                <div class="col-sm-7">
+                <div class=" card pres">
+                    <h2>Tristan VIGNON</h2>
+                    <h3>Développeur HTML/SCSS</h3>
+                    <p>Bonjour,<br><br>Je m'appelle Tristan, j'habite à Pontoise en France.<br>
+                        Je suis études de BTS Systèmes Numériques option<br> électronique et communication.<br> Je voudrais
+                        ensuite m'orienter vers le développement web</p>
+                </div>
+                </div>
             </div>
         </div>
-        <div class="part2">
-            <div class="card dip">
+        <div class="row part2">
+            <div class="col-sm-6">
+            <div class=" card dip">
                 <h4 class="card-header">Diplômes</h4>
                 <div class="card-body">
                     <div class="card-body">
@@ -40,7 +48,9 @@
                     </div>
                 </div>
             </div>
-            <div class="card exp">
+            </div>
+            <div class="col-sm-6">
+            <div class=" card exp">
                 <h4 class="card-header">Expérience</h4>
                 <div class="card-body">
                     <ul>
@@ -51,8 +61,11 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </div>
         <div class="part3">
+            <div class="row">
+            <div class="col-sm-8">
             <div class="card parcours">
                 <h4 class="card-header">Parcours Scolaire</h4>
                 <div class="card-body">
@@ -64,51 +77,62 @@
                     </ul>
                 </div>
             </div>
+            </div>
+            <div class="col-sm-4 ">
             <div class="card lang">
                 <h4 class="card-header">Languages utilisés</h4>
                 <div class="card-body">
                     <ul>
-                        <li>SCSS <img src='SCSS.png'></li>
-                        <li>HTML <img src='HTML.png'></li>
-                        <li>C <img src='C.png'></li>
+                        <li>SCSS <img src='./Assets/Images/SCSS.png'></li>
+                        <li>HTML <img src='./Assets/Images/HTML.png'></li>
+                        <li>C <img src='./Assets/Images/C.png'></li>
                     </ul>
                 </div>
 
             </div>
-
+            </div>
+            </div>
         </div>
         <div class="part4">
-            <div class="card outils">
-                <h4 class="card-header">Outils utilisés</h4>
-                <div class="card-body">
-                    <ul>
-                        <li>Arduino <img src='arduino.png'> </li>
-                        <li>Raspberry <img src='rasp.png'> </li>
-                        <li>GitLab <img src='gitlab.png'> </li>
-                    </ul>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card outils">
+                        <h4 class="card-header">Outils utilisés</h4>
+                        <div class="card-body">
+                            <ul>
+                                <li>Arduino <img src='./Assets/Images/arduino.png'> </li>
+                                <li>Raspberry <img src='./Assets/Images/rasp.png'> </li>
+                                <li>GitLab <img src='./Assets/Images/gitlab.png'> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card int">
+                        <h4 class="card-header">Centres d'intérets</h4>
+                        <div class="card-body">
+                            <ul>
+                                <li>Jeux sur console <img src='./Assets/Images/Man.png'></li>
+                                <li>Jeux d'ordinateurs et sites webs <img src='./Assets/Images/PC.png'></li>
+                                <li>Mon chien <img src='./Assets/Images/Chien.png'></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card int">
-                <h4 class="card-header">Centres d'intérets</h4>
-                <div class="card-body">
-                    <ul>
-                        <li>Jeux sur console <img src='Man.png'></li>
-                        <li>Jeux d'ordinateurs et sites webs <img src='PC.png'></li>
-                        <li>Mon chien <img src='Chien.png'></li>
-                    </ul>
-                </div>
-            </div>
-            
         </div>
-
-        <div class="card info">
-            <h4 class="card-header">Informations complémentaires</h4>
-            <div class="card-body">
-                <p class="infos"> Tristan VIGNON </p>
-                <p class="infos"> 15 rue de l'éperon </p>
-                <p class="infos"> 95300 Pontoise </p>
-                <p class="infos"> 0761199865 </p>
-                <p class="infos"> Nationnalité : Français </p>
+        <div class="row">
+            <div class="col-sm-12">
+            <div class=" card info">
+                <h4 class="card-header">Informations complémentaires</h4>
+                <div class="card-body">
+                    <p class="infos"> Tristan VIGNON </p>
+                    <p class="infos"> 15 rue de l'éperon </p>
+                    <p class="infos"> 95300 Pontoise </p>
+                    <p class="infos"> 0761199865 </p>
+                    <p class="infos"> Nationnalité : Français </p>
+                </div>
+            </div>
             </div>
         </div>
     </div>
