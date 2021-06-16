@@ -1,0 +1,85 @@
+body {
+    font-size: 16px;
+    font-family: $font-body;
+    padding: 50px 0;
+    position: relative;
+
+    &:before {
+        content: "";
+        background-color: $color-primary;
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+        position: fixed;
+        z-index: -1;
+        left: -10%;
+        top: -15%;
+
+        @media (max-width: 414px) {
+            height: 300px;
+            width: 300px;
+            left: -30%;
+            top: -15%;
+        }
+    }
+
+    &:after {
+        content: "";
+        background-color: $color-primary;
+        height: 700px;
+        width: 700px;
+        border-radius: 50%;
+        position: fixed;
+        right: -10%;
+        bottom: -50%;
+        z-index: -1;
+
+        @media (max-width: 414px) {
+            height: 500px;
+            width: 500px;
+            right: -30%;
+            bottom: -50%;
+        }
+    }
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+h2 {
+    color: $blue;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: $color-secondary;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    @media (min-width: 1200px) {
+        max-width: 900px;
+    }
+}
+
+.row {
+    margin-bottom: 1rem;
+
+    @media (max-width: 414px) {
+        margin-bottom: inherit;
+    }
+}

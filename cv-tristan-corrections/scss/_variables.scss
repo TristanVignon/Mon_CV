@@ -1,0 +1,34 @@
+/*=============================================
+=         Colors            =
+=============================================*/
+
+$blue: #0085E4;
+$purple: #0802EA;
+$turquoise: #3FDFE3;
+
+$color-primary: $turquoise;
+$color-primary-light: lighten($turquoise, 20%);
+$color-secondary: $purple;
+$color-secondary-light: lighten($purple, 20%);
+
+$color-link: $color-secondary;
+
+$gradient: linear-gradient(to right, #23EFDF 0%, #3FDFE3 50%, #07C4E8 100%);
+
+/*=====  End Colors  ======*/
+
+/*=============================================
+=            Font            =
+=============================================*/
+
+$font-body: "Montserrat", sans-serif;
+
+/*=====  End of Font  ======*/
+
+/*=============================================
+=            Transitions            =
+=============================================*/
+$transition-slow: 2s;
+$transition-fast: 0.7s;
+
+/*=====  End of Transitions  ======*/
